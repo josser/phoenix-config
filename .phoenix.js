@@ -144,3 +144,8 @@ keys.push(Key.on('delete', ['ctrl', 'alt', 'cmd'], function () {
     appsConfig[app.name()] && appsConfig[app.name()](app.mainWindow());
   })
 }));
+
+Phoenix.set({
+  daemon: false,
+  openAtLogin: true
+});
