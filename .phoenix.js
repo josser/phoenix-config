@@ -113,24 +113,24 @@ var AppsConfig = {
   test: {
     1: {
       'Skype': function (window){
-        window.throwTo(Displays.External).sideLeft(0.45);
+        window.throwTo(Displays.External).sideLeft(0.5);
       },
       'Telegram': function (window) {
         window.throwTo(Displays.External).sideRight();
       },
        'Slack': function (window) {
-        window.throwTo(Displays.Internal).sideRight(0.55);
+        window.throwTo(Displays.Internal).sideRight(0.5);
       }
     },
     2: {
       'Skype': function (window){
-        window.throwTo(Displays.Internal).sideLeft(0.45);
+        window.throwTo(Displays.Internal).sideLeft(0.5);
       },
       'Telegram': function (window) {
         window.throwTo(Displays.Internal).sideRight();
       },
       'Slack': function (window) {
-        window.throwTo(Displays.Internal).sideRight(0.55);
+        window.throwTo(Displays.Internal).sideRight(0.5);
       }
     }
   }
